@@ -23,3 +23,11 @@ The city of Nashville provides a dataset of known burials in city cemeteries fro
 
 
 #### Create a new sheet for each pivot table or analysis work done to create a visualization and give each sheet a descriptive/meaningful name. Your final product should be marketing material that includes one or two visualizations that go along with your story. 
+
+=IF(I2 = "UNKNOWN", "UNKNOWN",IF(I2<18,"0-18",IF(I2<26,"19-25",IF(I2<41,"26-40",IF(I2<65,"41-64","65+")))))
+
+Scott
+pablo
+Patrick
+Ella
+Jacob
